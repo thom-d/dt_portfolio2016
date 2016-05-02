@@ -1,0 +1,210 @@
+/****** Global Styles ******/
+
+/* Color Codes 
+
+bicycle red - #be1e2d
+nantucket red - #e8394d
+sandy ocean - #86cfcb
+sandy beach - #eed8b3
+dusky cement - #404041
+easy gray - #67686b
+
+*/
+
+* {
+  padding: 0; margin: 0;
+  font-family: 'PT Sans',   
+  helvetica, sans-serif;
+}
+
+
+/****** HEADER NAVIGATION BAR STYLE ******/
+
+
+.nav_bar {
+  background: #be1e2d;
+  padding: 0.5em 1em 1em 1em;
+  height: 1em; 
+  margin: 0;
+  
+}
+
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+  .home_logo, .right_nav {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .home_logo, 
+  .nav_btn {
+    color: #f1f1f2;
+    font-size: 0.8em; 
+  }
+
+  .nav_list {
+    list-style: none;
+    display: flex; 
+  }
+
+    .nav_btn {
+      margin-left: 1em;
+    }
+
+
+img {
+  width: 25px; height: auto;
+  margin-right: 0.5em; /*margin-bottom: 1em;*/
+  padding: 0;
+  margin-top: 0;
+
+}
+
+
+/****** LANDING PAGE STYLE ******/
+
+
+.intro {
+color: #67686b;
+background: #f1f1f2; 
+font-size: 1.5em;
+padding: 11em 5em 15em 5em;
+}
+
+.jumbo {
+  font-size: 1.7em;
+  letter-spacing: 1px;
+}
+
+
+/****** PORTFOLIO SECTION STYLE ******/
+
+
+.sample_work {
+background: #f1f1f2; 
+padding: 0;
+}
+
+.cat_bar {
+  height: 3em;
+  background: #67686b;
+}
+
+.tile {
+  width: 50%; height: 25rem;
+}
+
+.one {
+  background: #404041;
+}
+.two {
+  background: #e8394d;
+}
+.three {
+  background: #86cfcb;
+}
+.four {
+  background: #eed8b3;
+}
+
+.left {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.right {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+/****** CONTACT SECTION STYLE ******/
+
+
+.contact {
+  background: #f1f1f2; 
+  padding: 13em 12em;  
+}
+
+.blurb {
+  color: #67686b;
+  font-size: 1.1em;
+  text-align: center;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+}
+
+.e_mail {
+  font-size: 1.2em; 
+}
+
+.e_mail:hover {
+  color: #be1e2d;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  color: #f1f1f2;
+  background: #be1e2d;
+  font-size: 0.8em;
+  margin: 4em 0.09em 6em 0.09em ;
+  padding: 0.9em 2.5em;
+  outline: 0;
+  border : 0px;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+button:hover {
+  background: rgba(190,30,45,0.6); 
+}
+
+.flex_contain {
+  display: flex;
+  justify-content: center;
+}
+
+.btm_navbar, .btm_nav {
+  color: #67686b;
+  list-style: none;
+  text-align: center;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  padding: 0 0.5em;
+  margin: 2em 0 0 0; 
+}
+
+
+/****** FOOTER SECTION STYLE ******/
+
+
+.copy {
+  color: #f1f1f2;
+  background: #404041;
+  padding: 1em;
+  text-align: center;  
+}
+
+
+/****** SITE CREATOR INFO ******/
+
+/*
+  Title: Dana Thomas | Portfolio
+  Description: Online Web and Design Portfolio
+  Author: Dana Thomas
+  Author URL: http://www.dnathoms.io/
+  Tags: user interface, apparel, website
+*/
+
+
+
+
