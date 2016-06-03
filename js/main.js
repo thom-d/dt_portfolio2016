@@ -39,6 +39,18 @@ $("li.page_list").click(function() {
 //   });
 // });
 
+//  lightbox.option({
+//       'positionFromTop': 75,
+//       'fadeDuration': 200
+//     })
+
+// $(".question").click(function() {
+// 	$(this).next().slideToggle("slow");
+// 	$(this).children().toggleClass("collapse");
+// 	$("#a2").animate({ opacity: 0.1 }, 1500);
+// });
+
+
 
   // --------- SITE CREATOR INFO ---------
 

@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/thomasd_/pen/BKJmjR.
+This is the personal portfolio site for Dana Thomas, built with simple html/css/jQuery. 
 
  
