@@ -1,13 +1,4 @@
-// Links should open in new tab
-// Links should smooth scroll to the proper area
 // Portfolio images should open in a lightbox
-
-// //Hide the title text
-// $(".intro .welcome").hide();
-// //Reveal text when mouse pointer hovers
-// $(".intro").hover(function(){
-//   $(this).children().fadeIn(4400);
-// });
 
 //When doc loads fade in title text.
 $(".intro .welcome").hide().fadeIn(4400);
@@ -37,29 +28,16 @@ $("#btn5").click(function(){
 });
 
 
-// var $overlay = $('<div id="overlay"></div>');
-// // var $image = $("<img>");
+// Links should open in new tab  -- "apparel" "behance" "linkedin" github"
 
-// $overlay.append($image);
-// // Add an overlay
-// // An image
-// // A caption
-// $("body").append($overlay);
+// "Apparel" link out to behance project page
+$('#btn2').click(function() {
+  event.preventDefault();
+  window.open("https://www.behance.net/collection/76966367/Apparel-Design-Project-Samples");
+});
 
-// //1. Capture the click event on a link to an image
-// $(".imageGallery a").click(function(event) {
-//   event.preventDefault();
-//   var imageLocation = $(this).attr("href");
-  
-//   $image.attr("src", imageLocation);
-  
-//   //Show the overlay
-//   $overlay.show();
-//   //Click to hide overlay
-//   $($overlay).click(function() {
-//     $(this).fadeOut("slow");
-//   });
-// });
+// "Behance" link out to behance page
+
 
 //  lightbox.option({
 //       'positionFromTop': 75,
