@@ -1,3 +1,7 @@
+// Links should open in new tab
+// Links should smooth scroll to the proper area
+// Portfolio images should open in a lightbox
+
 // //Hide the title text
 // $(".intro .welcome").hide();
 // //Reveal text when mouse pointer hovers
