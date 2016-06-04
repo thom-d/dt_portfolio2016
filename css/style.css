@@ -121,6 +121,15 @@ padding: 0;
   flex-flow: row wrap;
 }
 
+.tile_icon {
+/*   width: 8em; height: auto; */
+  color: #fff;
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+  margin-top: 7.5em;
+}
+
 
 /****** CONTACT SECTION STYLE ******/
 
