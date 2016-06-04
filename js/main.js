@@ -12,19 +12,19 @@
 //When doc loads fade in title text.
 $(".intro .welcome").hide().fadeIn(4400);
 
-// Links should smooth scroll to the proper area
+// Portfolio and Contact links should smooth scroll to their correct sections
 
-$(".nav_btn").click(function(){
-    
-  
+// Navigation bar links  -- "portfolio" and "contact" 
+$("#btn1").click(function(){
+  event.preventDefault();
+  $('html, body').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
 });
 
-//Click link and smooth scroll to portfolio tiles
-$("li.page_list").click(function() {
-  $("#work").animate(function(){
-    'scrollTop()'
-  });
+$("#btn3").click(function(){
+  event.preventDefault();
+  $('html, body').animate({scrollTop: $(".contact").offset().top}, 1500);    
 });
+
 
 // var $overlay = $('<div id="overlay"></div>');
 // // var $image = $("<img>");
