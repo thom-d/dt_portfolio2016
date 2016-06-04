@@ -25,6 +25,17 @@ $("#btn3").click(function(){
   $('html, body').animate({scrollTop: $(".contact").offset().top}, 1500);    
 });
 
+// Bottom page links  -- "home" and "portfolio"
+$("#btn4").click(function(){
+  event.preventDefault();
+  $('html, body').animate({scrollTop: $(".nav_bar").offset().top}, 1500);    
+});
+
+$("#btn5").click(function(){
+  event.preventDefault();
+  $('html, body').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
+});
+
 
 // var $overlay = $('<div id="overlay"></div>');
 // // var $image = $("<img>");
