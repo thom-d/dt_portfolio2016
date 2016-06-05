@@ -60,7 +60,7 @@ $('#linked').click(function() {
 // Github button
 $('#github').click(function() {
   event.preventDefault();
-  window.open("https://github.com/thom-d");
+  window.open("https://github.com/thom-d?tab=repositories");
 });
 
 
