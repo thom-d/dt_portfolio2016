@@ -91,31 +91,10 @@ padding: 0;
   background: #67686b;
 }
 
+/******** Portfolio Tiles */
+
 .tile {
   width: 50%; height: 25rem;
-}
-
-.one {
-  background: #404041;
-}
-.two {
-  background: #e8394d;
-}
-.three {
-  background: #86cfcb;
-}
-.four {
-  background: #eed8b3;
-}
-
-.left {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.right {
-  display: flex;
-  flex-flow: row wrap;
 }
 
 .tile_icon {
@@ -124,6 +103,28 @@ padding: 0;
   display: block;
   text-align: center;
   margin-top: 7.5em;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Left side tiles */
+.one {
+  background: #404041;
+}
+.two {
+  background: #e8394d;
+}
+
+/* Right side tiles */
+.three {
+  background: #86cfcb;
+}
+.four {
+  background: #eed8b3;
 }
 
 
