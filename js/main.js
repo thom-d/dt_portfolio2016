@@ -1,7 +1,12 @@
+// 1. When the page opens/loads, the name and professional title should fade in.
+// 2. On the navigation bar - when the buttons are clicked, they should smooth scroll accordingly.
+// 3. All link or buttons when clicked should open out into a new tab.
+// 4. When project tiles are clicked, a lightbox should open up. 
 
 
 //When doc loads fade in title text.
 $(".intro .welcome").hide().fadeIn(4400);
+
 
 // Portfolio and Contact links should smooth scroll to their correct sections
 
@@ -61,19 +66,10 @@ $('#github').click(function() {
 
 // Portfolio images should open in a lightbox
 
-//  lightbox.option({
-//       'positionFromTop': 75,
-//       'fadeDuration': 200
-//     })
-
-
-
-// $(".question").click(function() {
-// 	$(this).next().slideToggle("slow");
-// 	$(this).children().toggleClass("collapse");
-// 	$("#a2").animate({ opacity: 0.1 }, 1500);
-// });
-
+ lightbox.option({
+  'positionFromTop': 75,
+  'fadeDuration': 200
+ });
 
 
   // --------- SITE CREATOR INFO ---------
