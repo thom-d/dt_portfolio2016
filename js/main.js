@@ -1,4 +1,4 @@
-// Portfolio images should open in a lightbox
+
 
 //When doc loads fade in title text.
 $(".intro .welcome").hide().fadeIn(4400);
@@ -59,10 +59,14 @@ $('#github').click(function() {
 });
 
 
+// Portfolio images should open in a lightbox
+
 //  lightbox.option({
 //       'positionFromTop': 75,
 //       'fadeDuration': 200
 //     })
+
+
 
 // $(".question").click(function() {
 // 	$(this).next().slideToggle("slow");
