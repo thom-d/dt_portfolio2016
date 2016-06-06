@@ -12,26 +12,26 @@ $(".intro .welcome").hide().fadeIn(4400);
 
 // Navigation bar links  -- "portfolio" and "contact" 
 // Portfolio button
-$("#btn1").click(function(e){
+$("#btn1_portfolio").click(function(e){
   e.preventDefault();
-  $('body, html').animate({scrollTop: $(".contact").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
 });
 
 // Contact button
-$("#btn3").click(function(e){
+$("#btn3_contact").click(function(e){
   e.preventDefault();
   $('body, html').animate({scrollTop: $(".contact").offset().top}, 1500);    
 });
 
 // Bottom page links  -- "home" and "portfolio"
 // Home button
-$("#btn4").click(function(e){
+$("#btn4_home").click(function(e){
   event.preventDefault();
   $('body, html').animate({scrollTop: $(".nav_bar").offset().top}, 1500);    
 });
 
 // Portfolio button
-$("#btn5").click(function(e){
+$("#btn5_portfolio").click(function(e){
   e.preventDefault();
   $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
 });
@@ -40,7 +40,7 @@ $("#btn5").click(function(e){
 // Links should open in new tab  -- "apparel" "behance" "linkedin" github"
 
 // Apparel button
-$('#btn2').click(function() {
+$('#btn2_apparel').click(function() {
   e.preventDefault(e);
   window.open("https://www.behance.net/collection/76966367/Apparel-Design-Project-Samples");
 });
