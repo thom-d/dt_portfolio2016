@@ -14,7 +14,7 @@ $(".intro .welcome").hide().fadeIn(4400);
 // Portfolio button
 $("#btn1").click(function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".contact").offset().top}, 1500);    
 });
 
 // Contact button
