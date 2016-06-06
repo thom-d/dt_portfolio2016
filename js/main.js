@@ -12,8 +12,8 @@ $(".intro .welcome").hide().fadeIn(4400);
 
 // Navigation bar links  -- "portfolio" and "contact" 
 // Portfolio button
-$("#btn1").click(function(){
-  event.preventDefault();
+$("#btn1").click(function(e){
+  e.preventDefault();
   $('body, html').animate({scrollTop: $(".contact").offset().top}, 1500);    
 });
 
