@@ -52,8 +52,8 @@ $('#behance').click(function() {
 });
 
 // LinkedIn button
-$('#linked').click(function() {
-  event.preventDefault();
+$('#linked').click(function(e) {
+  e.preventDefault();
   window.open("https://www.linkedin.com/in/dthomas014");
 });
 
