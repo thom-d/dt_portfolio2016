@@ -12,7 +12,7 @@ $(".intro .welcome").hide().fadeIn(4400);
 
 // Navigation bar links  -- "portfolio" and "contact" 
 // Portfolio button
-$("#btn1").on('click',function(){
+$("#toTop").on('click',function(){
   event.preventDefault();
   $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
 });
