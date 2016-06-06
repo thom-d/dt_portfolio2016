@@ -18,21 +18,21 @@ $("#btn1").click(function(e){
 });
 
 // Contact button
-$("#btn3").click(function(){
-  event.preventDefault();
+$("#btn3").click(function(e){
+  e.preventDefault();
   $('body, html').animate({scrollTop: $(".contact").offset().top}, 1500);    
 });
 
 // Bottom page links  -- "home" and "portfolio"
 // Home button
-$("#btn4").click(function(){
+$("#btn4").click(function(e){
   event.preventDefault();
   $('body, html').animate({scrollTop: $(".nav_bar").offset().top}, 1500);    
 });
 
 // Portfolio button
-$("#btn5").click(function(){
-  event.preventDefault();
+$("#btn5").click(function(e){
+  e.preventDefault();
   $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
 });
 
@@ -41,13 +41,13 @@ $("#btn5").click(function(){
 
 // Apparel button
 $('#btn2').click(function() {
-  event.preventDefault();
+  e.preventDefault(e);
   window.open("https://www.behance.net/collection/76966367/Apparel-Design-Project-Samples");
 });
 
 // Behance button
-$('#behance').click(function() {
-  event.preventDefault();
+$('#behance').click(function(e) {
+  e.preventDefault();
   window.open("https://behance.net/dthomas");
 });
 
@@ -58,8 +58,8 @@ $('#linked').click(function(e) {
 });
 
 // Github button
-$('#github').click(function() {
-  event.preventDefault();
+$('#github').click(function(e) {
+  e.preventDefault();
   window.open("https://github.com/thom-d?tab=repositories");
 });
 
