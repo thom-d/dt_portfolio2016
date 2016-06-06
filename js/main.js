@@ -26,7 +26,7 @@ $("#btn3_contact").click(function(e){
 // Bottom page links  -- "home" and "portfolio"
 // Home button
 $("#btn4_home").click(function(e){
-  event.preventDefault();
+  e.preventDefault();
   $('body, html').animate({scrollTop: $(".nav_bar").offset().top}, 1500);    
 });
 
