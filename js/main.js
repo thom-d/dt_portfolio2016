@@ -14,26 +14,26 @@ $(".intro .welcome").hide().fadeIn(4400);
 // Portfolio button
 $("#btn1").click(function(){
   event.preventDefault();
-  $('html, body').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
 });
 
 // Contact button
 $("#btn3").click(function(){
   event.preventDefault();
-  $('html, body').animate({scrollTop: $(".contact").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".contact").offset().top}, 1500);    
 });
 
 // Bottom page links  -- "home" and "portfolio"
 // Home button
 $("#btn4").click(function(){
   event.preventDefault();
-  $('html, body').animate({scrollTop: $(".nav_bar").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".nav_bar").offset().top}, 1500);    
 });
 
 // Portfolio button
 $("#btn5").click(function(){
   event.preventDefault();
-  $('html, body').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
 });
 
 
