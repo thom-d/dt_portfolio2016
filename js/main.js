@@ -12,15 +12,10 @@ $(".intro .welcome").hide().fadeIn(4400);
 
 // Navigation bar links  -- "portfolio" and "contact" 
 // Portfolio button
-$("#btn1").click(function(){
-//   event.preventDefault();
-  $('html, body').animate({scrollTopName: $(".sample_work").offset().top}, 1500);
+$("#btn1").on('click',function(){
+  event.preventDefault();
+  $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
 });
-
-// $("#btn1").click(function(){
-//   event.preventDefault();
-//   $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
-// });
 
 // Contact button
 $("#btn3").click(function(){
