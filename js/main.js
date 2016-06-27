@@ -26,7 +26,7 @@ $("#btn3_contact").click(function(e){
 // Home button
 $("#btn4_home").click(function(e){
   e.preventDefault();
-  $('body, html').animate({scrollTop: $(".nav_bar").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".intro").offset().top}, 1500);    
 });
 
 // Portfolio button

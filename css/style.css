@@ -23,9 +23,16 @@ easy gray - #67686b
 
 .nav_bar {
   background: #be1e2d;
+  position: fixed;
   padding: 0.5em 1em 1em 1em;
+  width: 100%;
   height: 1em; 
   margin: 0;
+  z-index: 9999;
+}
+
+#btn3_contact {
+  margin-right: 2.7em;
 }
 
 .flex_container {
