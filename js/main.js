@@ -26,7 +26,7 @@ $("#btn3_contact").click(function(e){
 // Home button
 $("#btn4_home").click(function(e){
   e.preventDefault();
-  $('body, html').animate({scrollTop: $(".nav_bar").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".intro").offset().top}, 1500);    
 });
 
 // Portfolio button
@@ -38,9 +38,9 @@ $("#btn5_portfolio").click(function(e){
 // Links should open in new tab  -- "apparel" "behance" "linkedin" github"
 
 // Apparel button
-$('#btn2_apparel').click(function(e) {
+$('#btn2_design').click(function(e) {
   e.preventDefault();
-  window.open("https://www.behance.net/collection/76966367/Apparel-Design-Project-Samples");
+  window.open("https://behance.net/dthomas");
 });
 
 // Behance button

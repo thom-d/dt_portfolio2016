@@ -8,6 +8,7 @@ sandy ocean - #86cfcb
 sandy beach - #eed8b3
 dusky cement - #404041
 easy gray - #67686b
+medium gray - #808284
 
 */
 
@@ -23,9 +24,16 @@ easy gray - #67686b
 
 .nav_bar {
   background: #be1e2d;
+  position: fixed;
   padding: 0.5em 1em 1em 1em;
+  width: 100%;
   height: 1em; 
   margin: 0;
+  z-index: 9999;
+}
+
+#btn3_contact {
+  margin-right: 2.7em;
 }
 
 .flex_container {
@@ -109,6 +117,11 @@ padding: 0;
   margin-top: 7.5em;
 }
 
+.subtitle {
+  font-size: 0.6em;
+  font-style: italic;
+}
+
 .left,
 .right {
   display: flex;
@@ -137,12 +150,12 @@ padding: 0;
 
 .contact {
   background: #f1f1f2; 
-  padding: 13em 12em;  
+  padding: 13em 12em 7em 12em;  
 }
 
 .blurb {
   color: #67686b;
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: center;
   line-height: 1.6em;
   margin-bottom: 1em;
@@ -198,7 +211,7 @@ button:hover {
 
 
 .copy {
-  color: #f1f1f2;
+  color: #808080;
   background: #404041;
   padding: 1em;
   text-align: center;  
