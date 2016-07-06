@@ -80,10 +80,6 @@ font-size: 1.5em;
 padding: 11em 5em 15em 5em;
 }
 
-  @media screen and (max-width: 320px) {
-    .intro {background-color: red;}
-}
-
 .jumbo {
   font-size: 1.7em;
   letter-spacing: 1px;
@@ -94,8 +90,9 @@ padding: 11em 5em 15em 5em;
 
 
 .sample_work {
-background: #f1f1f2; 
-padding: 0;
+background: #e7e7e7; 
+padding: 5em 0;
+margin: 0 auto;
 }
 
 .cat_bar {
@@ -106,7 +103,8 @@ padding: 0;
 /******** Portfolio Tiles */
 
 .tile {
-  width: 50%; height: 25rem;
+  width: 25rem; height: 25rem;
+  margin: 1em;
 }
 
 .tile_icon {
@@ -126,6 +124,7 @@ padding: 0;
 .right {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 /* Left side tiles */
@@ -220,6 +219,14 @@ button:hover {
 
 /****** RESPONSIVE MOBILE STYLES ******/
 /**************************************/
+
+  @media screen and (max-width: 320px) {
+    .intro {background-color: red;}
+    
+    .btm_nav {
+      display: block;
+    }
+}
 
 
 
