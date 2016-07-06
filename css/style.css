@@ -72,6 +72,10 @@ font-size: 1.5em;
 padding: 11em 5em 15em 5em;
 }
 
+  @media screen and (max-width: 320px) {
+    .intro {background-color: red;}
+}
+
 .jumbo {
   font-size: 1.7em;
   letter-spacing: 1px;
