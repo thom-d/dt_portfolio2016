@@ -2,6 +2,7 @@
 
 /* Color Codes 
 
+material red - #B71C1C
 bicycle red - #be1e2d
 nantucket red - #e8394d
 sandy ocean - #86cfcb
@@ -27,17 +28,16 @@ medium gray - #808284
 
 
 .nav_bar {
-/*   background: #be1e2d; */
-  background: #B71C1C;
+  background: #be1e2d;
+/*   background: #B71C1C; */
   position: fixed;
-  padding: 1em 1em 1em 1em;
-  width: 100%;
-  height: 1.5em; 
+  padding: 1em;
+  width: 100%; height: 1.5em; 
   margin: 0;
   z-index: 9999;
-  box-shadow: 3px 3px 3px #999; 
-     -moz-box-shadow: 3px 3px 3px #999;
-     -webkit-box-shadow: 3px 3px 3px #999;
+  box-shadow: 4px 4px 4px rgba(183, 28, 28, 0.3); 
+    -moz-box-shadow: 4px 4px 4px rgba(183, 28, 28, 0.3);
+    -webkit-box-shadow: 4px 4px 4px rgba(183, 28, 28, 0.3);
 }
 
 #btn3_contact {
@@ -88,7 +88,7 @@ background-image: url("../assets/unsplash_fogbay.jpeg");
 background-size: cover;
 background-repeat: no-repeat;
 font-size: 1.5em;
-padding: 11em 5em 15em 5em;
+padding: 11em 5em 17em 5em;
 }
 
 .jumbo {
