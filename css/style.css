@@ -3,6 +3,7 @@
 /* Color Codes 
 
 material red - #B71C1C
+
 bicycle red - #be1e2d
 nantucket red - #e8394d
 sandy ocean - #86cfcb
@@ -28,8 +29,8 @@ medium gray - #808284
 
 
 .nav_bar {
-  background: #be1e2d;
-/*   background: #B71C1C; */
+/*   background: #be1e2d; */
+  background: #B71C1C;
   position: fixed;
   padding: 1em;
   width: 100%; height: 1.5em; 
@@ -140,18 +141,26 @@ margin: 0 auto;
 
 /* Left side tiles */
 .one {
-  background: #404041;
+  background: #37474F;
+  border: 2px solid #263238;
+  border-radius: 5px;
 }
 .two {
   background: #e8394d;
+  border: 2px solid #C62828;
+  border-radius: 5px;
 }
 
 /* Right side tiles */
 .three {
-  background: #86cfcb;
+  background: #80CBC4;
+  border: 2px solid #4DB6AC;
+  border-radius: 5px;  
 }
 .four {
-  background: #eed8b3;
+  background: #FFE0B2;
+  border: 2px solid #FFD180;
+  border-radius: 5px;
 }
 
 
@@ -220,11 +229,15 @@ button:hover {
 
 /****** FOOTER SECTION STYLE ******/
 
+hr {
+  border: 1px solid #e7e7e7;
+}
 
 .copy {
-  color: #808080;
+  color: #67686b;
 /*   background: #be1e2d; */
 /*   background: #404041; */
+  font-size: 0.8em;
   padding: 1em;
   text-align: left;  
 }
