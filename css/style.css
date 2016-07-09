@@ -21,7 +21,8 @@ medium gray - #808284
 }
 
 .container {
-  width: 80%;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 
@@ -139,12 +140,12 @@ margin: 0 auto;
   justify-content: center;
 }
 
-/* Left side tiles */
+/* Left side tiles #FFD180 */
 .one {
   background: #37474F;
-  border: 2px solid #263238;
+  border: 2px solid #263238;  
   border-radius: 5px;
-}
+}  
 .two {
   background: #e8394d;
   border: 2px solid #C62828;
@@ -170,7 +171,7 @@ margin: 0 auto;
 .contact {
 /*   background: #f1f1f2;  */
   background: #fff;
-  padding: 13em 12em 7em 12em;  
+  padding: 13em 12em 7em 12em; 
 }
 
 .blurb {
@@ -229,29 +230,33 @@ button:hover {
 
 /****** FOOTER SECTION STYLE ******/
 
-hr {
-  border: 1px solid #e7e7e7;
+
+.footer {
+  padding: 1.5em 0; 
 }
 
-.copy {
+.footer--copyright {
   color: #67686b;
-/*   background: #be1e2d; */
-/*   background: #404041; */
   font-size: 0.8em;
-  padding: 1em;
-  text-align: left;  
+  text-align: left; 
+}
+
+
+hr {
+  border: 1px solid #e7e7e7;
+  margin-bottom: 1em;
 }
 
 
 /****** RESPONSIVE MOBILE STYLES ******/
 /**************************************/
 
-  @media screen and (max-width: 320px) {
-    .intro {background-color: red;}
+  @media screen and (max-width: 400px) {
     
-    .btm_nav {
-      display: block;
+    .sample_work {background: red;
     }
+    
+   
 }
 
 
