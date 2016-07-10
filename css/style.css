@@ -20,8 +20,13 @@ medium gray - #808284
   helvetica, sans-serif;
 }
 
+body {
+  font-size: 100%;
+}
+
 .container {
   max-width: 90%;
+  max-height: auto;
   margin: 0 auto;
 }
 
@@ -171,7 +176,7 @@ margin: 0 auto;
 .contact {
 /*   background: #f1f1f2;  */
   background: #fff;
-  padding: 13em 12em 7em 12em; 
+  padding: 13em 0 7em 0; 
 }
 
 .blurb {
@@ -253,8 +258,14 @@ hr {
 
   @media screen and (max-width: 400px) {
     
-    .sample_work {background: red;
+    .sample_work {
+      background: red;
     }
+    
+    .blurb {
+      font-size: 90%;
+      text-align: justify;
+}
     
    
 }
