@@ -268,17 +268,34 @@ img {
 	justify-content: center;
 	flex-direction: row;
 	} 
+  
+  .nav--logo {
+    margin-top: 2%;
+  }
 
 	.navBar--list {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-}
+  }
+  
+  .navBar--list > li {
+	margin: 0 2% 2% 2%;
+  }
 
-.landingPage--text {
+  .landingPage--text {
 	padding-left: 0;
 	text-align: center;
-}
+  }
+  
+  .content--columns {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footerNav--copyright {
+    text-align: center;
+  }
 
 }
 
