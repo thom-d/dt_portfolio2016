@@ -2,333 +2,262 @@
 
 /* Color Codes 
 
-material red - #B71C1C
+Body Background--
+white - #fff **
 
-bicycle red - #be1e2d
+Content Background and hr tag--
+casual gray - #f1f1f2 **
+
+Content Tiles and Border Color--
+london gray - #37474F   
+border - #263238
+-
 nantucket red - #e8394d
-sandy ocean - #86cfcb
-sandy beach - #eed8b3
-dusky cement - #404041
-easy gray - #67686b
-medium gray - #808284
+border - #C62828
+-
+bermuda aqua - #80CBC4
+border - #4DB6AC
+-
+georgia yellow - #FFE0B2
+border - #FFD180
+
+Text, Navigation Bar --
+linen gray - #808285 **
+
+Links--
+material red - #B71C1C
 
 */
 
-* {
-  padding: 0; margin: 0;
-  font-family: 'PT Sans',   
-  helvetica, sans-serif;
-}
-
 body {
-  font-size: 100%;
-}
-
-.container {
-  max-width: 90%;
-  max-height: auto;
-  margin: 0 auto;
-}
-
-
-/****** HEADER NAVIGATION BAR STYLE ******/
-
-
-.nav_bar {
-/*   background: #be1e2d; */
-  background: #B71C1C;
-  position: fixed;
-  overflow: hidden;
-  padding: 1em;
-  width: 100%; height: 1.5em; 
-  margin: 0;
-  z-index: 9999;
-  box-shadow: 4px 4px 4px rgba(183, 28, 28, 0.3); 
-    -moz-box-shadow: 4px 4px 4px rgba(183, 28, 28, 0.3);
-    -webkit-box-shadow: 4px 4px 4px rgba(183, 28, 28, 0.3);
-}
-
-#btn3_contact {
-  margin-right: 2.7em;
-}
-
-.flex_container {
-  display: flex;
-  justify-content: space-between;
-}
-
-  .home_logo, .right_nav {
-    display: flex;
-    align-items: center;
-    padding: 0;
-  }
-
-  .home_logo, 
-  .nav_btn {
-    color: #f1f1f2;
-    font-size: 0.8em; 
-  }
-
-  .nav_list {
-    list-style: none;
-    display: flex; 
-  }
-
-    .nav_btn {
-      margin-left: 1em;
-    }
-
-img {
-  width: 25px; height: auto;
-  margin-right: 0.5em; 
-  padding: 0;
-  margin-top: 0;
-}
-
-
-/****** LANDING PAGE STYLE ******/
-
-
-.intro {
-background: #f1f1f2;
-background-image: url("../assets/unsplash_fogbay.jpeg");
-background-size: cover;
-background-repeat: no-repeat;
-height: 850px; width: auto;
-}
-
-.welcome {
-  font-size: 1.5em;
-  color: #67686b;
-  text-align: left;
-  margin-top: 12em;
-  padding-left: 2em;
-  max-width: 100%;
-}
-
-.jumbo {
-  font-size: 1.7em;
-  letter-spacing: 1px;
-}
-
-.flex_contains {
-  display: flex; 
-}
-
-
-/****** PORTFOLIO SECTION STYLE ******/
-
-
-.sample_work {
-background: #e7e7e7; 
-padding: 5em 0;
-margin: 0 auto;
-}
-
-.cat_bar {
-  height: 3em;
-  background: #67686b;
-}
-
-/******** Portfolio Tiles */
-
-.tile {
-  width: 25rem; height: 25rem;
-  margin: 1em;
-}
-
-.tile_icon {
-  color: #fff;
-  font-size: 1.5em;
-  display: block;
-  text-align: center;
-  margin-top: 7.5em;
-}
-
-.subtitle {
-  font-size: 0.6em;
-  font-style: italic;
-}
-
-.left,
-.right {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-/* Left side tiles #FFD180 */
-.one {
-  background: #37474F;
-  border: 2px solid #263238;  
-  border-radius: 5px;
-}  
-.two {
-  background: #e8394d;
-  border: 2px solid #C62828;
-  border-radius: 5px;
-}
-
-/* Right side tiles */
-.three {
-  background: #80CBC4;
-  border: 2px solid #4DB6AC;
-  border-radius: 5px;  
-}
-.four {
-  background: #FFE0B2;
-  border: 2px solid #FFD180;
-  border-radius: 5px;
-}
-
-
-/****** CONTACT SECTION STYLE ******/
-
-
-.contact {
-/*   background: #f1f1f2;  */
-  background: #fff;
-  padding: 13em 0 7em 0; 
-}
-
-.blurb {
-  color: #67686b;
-  font-size: 1em;
-  text-align: center;
-  line-height: 1.6em;
-  margin-bottom: 1em;
-}
-
-.blurb-list {
-  display: inline-block;
-  color: inherit;
-  font-size: inherit;
-}
-
-.e_mail {
-  font-size: 1.2em; 
-}
-
-.e_mail:hover {
-  color: #be1e2d;
+	font-family: 'Quicksand', sans-serif;
+	background: #fff;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	text-decoration: none;
 }
 
-button {
-  color: #f1f1f2;
-  background: #be1e2d;
-  font-size: 0.8em;
-  margin: 4em 0.09em 6em 0.09em ;
-  padding: 0.9em 2.5em;
-  outline: 0;
-  border : 0px;
-  border-radius: 2px;
-  box-shadow: none;
+
+/**************  NAVIGATION BAR CONTENT SECTION ***/
+
+
+.navBar, .footerNav {
+	font-size: 0.9em;
 }
 
-button:hover {
-  background: rgba(190,30,45,0.6); 
+.navBar {
+  position: fixed;
+  min-width: 100%;
+	z-index: 9999;
+	margin-bottom: 0;
 }
 
-.flex_contain {
-  display: flex;
-  justify-content: center;
+.nav--color {
+	background: #808285;
+	/*box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4); 
+    -moz-box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4);
+    -webkit-box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4);*/
 }
 
-.btm_navbar, .btm_nav {
-  color: #67686b;
-  list-style: none;
+.navBar--list {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+.navBar--list > li {
+	list-style: none;
+	text-decoration: none;
+	display: inline-flex;
+	padding-bottom: 0;
+	margin: 0 0 0 1.5%;
+}
+
+.navBar--menu-link, 
+.navBar--menu-icon {
+	color: #fff;
+} 
+
+.fa {
+	color: #fff;
+}
+
+.fa:hover {
+	color: #B71C1C;
+}
+
+
+/**************  LANDING PAGE CONTENT SECTION  ***/
+
+
+.landingPage {
+	background: #fff;
+}
+
+.landingPage--text {
+	color: #808285;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	padding: 0 0 0 5em;
+	margin-bottom: 0;
+}
+
+.landingPage--jumbo {
+	font-family: 'Lato', sans-serif;
+  font-size: 1.8em;
+  font-weight: 400i;
+  letter-spacing: 1.2px;
+}
+
+
+/**************  FEATURED (PORTFOLIO) WORK SECTION  ***/
+
+
+.content--box, 
+.content--text, 
+.content--subtitle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content {
+	margin: 0 auto;
+}
+
+.content--background {
+	background: #f1f1f2;
+	height: 100%;
+	padding: 0 2%;
+}
+
+/* In Featured Work -- content display box shape and height */
+.content--box {
+	width: auto; height: 250px;
+	border-radius: 2px;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+/* Content display box color and border dimensions */
+.content--box--one {
+	background: #37474F;
+	border: 2px solid #263238;  
+}
+.content--box--two {
+	background: #e8394d;
+	border: 2px solid #C62828;
+}
+.content--box--three {
+	background: #80CBC4;
+	border: 2px solid #4DB6AC;
+}
+.content--box--four {
+	background: #FFE0B2;
+	border: 2px solid #FFD180;
+}
+/****** END ******/
+
+.content--text {
+  color: #fff;
+  font-size: 1.5em;
   text-align: center;
-  text-decoration: underline;
-  display: flex;
-  justify-content: center;
-  padding: 0 0.5em;
-  margin: 2em 0 0 0; 
+}
+
+.content--subtitle {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 
-/****** FOOTER SECTION STYLE ******/
+/**************  CONTACT / ABOUT ME INFO SECTION  ***/
 
 
-.footer {
-  padding: 1.5em 0; 
+.contactInfo--about, 
+.contactInfo--skills {
+	color: #808285;
+	font-size: 0.95em;
 }
 
-.footer--copyright {
-  color: #67686b;
-  font-size: 0.8em;
-  text-align: left; 
+.contactInfo--skills {
+	padding-left: 2%;
 }
 
-.footer--links > li {
-  color: #67686b;
-  font-size: 0.8em;
-  text-align: right;
-}
-
-
-hr {
-  border: 1px solid #e7e7e7;
-  margin-bottom: 1em;
+.contactInfo--email {
+	color: #808285;
+	font-weight: 400;
+	font-size: 1.2em;
 }
 
 
-/****** RESPONSIVE MOBILE STYLES ******/
-/**************************************/
+/**************  BACK TO TOP BUTTON  ***/
 
-  @media screen and (max-width: 400px) {
-     
-    .intro {
-      background-image: none;
-      height: 50%;
-    }
-    
-    .welcome {
-      font-size: 100%;
-      text-align: center;
-      margin: 10em auto 8em auto;
-      padding: 0;
-      max-width: 90%;
-    }
-    
-    .jumbo {
-      font-size: 110%;
-      font-style: bold;
-    }
-    
-    .sample_work {
-/*       background: red; */
-    }
-    
-    .contact {
-      padding: 5em 0 5em 0;
-    }
-    
-    .blurb {
-      font-size: 80%;
-      text-align: center;
+.returnBtn {
+	text-align: center;
+	color: #808285;
+	display: block;
 }
-    
-   
+
+/**************  FOOTER NAVIGATION STYLES  ***/
+
+
+.footerNav--copyright, 
+.footerNav--links {
+	color: #808285;
+}
+
+.footerNav--list {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+.footerNav--list > li {
+	list-style: none;
+	display: inline-flex;
+	padding: 0 1%;
+	margin: 0 0 0 1.5%;
 }
 
 
+/**************  MEDIA QUERIES  ***/
 
 
-/****** SITE CREATOR INFO ******/
+@media (max-width: 550px) {
 
-/*
-  Title: Dana Thomas | Portfolio
-  Description: Online Web and Design Portfolio
-  Author: Dana Thomas
-  Author URL: http://www.dnathoms.io/
-  Tags: user interface, apparel, website
-*/
+	.landingPage--text {
+		margin: 20% 0;
+		padding-bottom: 0;
+	}
 
+	.nav--logo {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	} 
 
+	.navBar--list {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.landingPage--text {
+	padding-left: 0;
+	text-align: center;
+}
+
+}
 
 

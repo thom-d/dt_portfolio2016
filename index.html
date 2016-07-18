@@ -1,207 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Dana Thomas | Portfolio</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Normalize CSS and Responsive Pure CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
+<head>
 
-    <!-- Primary CSS Styles -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|PT+Sans' rel='stylesheet' type='text/css'>
-    <!-- Light CSS Package-->
-    <link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">          
-  </head>
+  <meta charset="utf-8">
+  <title>Dana Thomas | Web Portfolio</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <body>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- HEADER NAVIGATION --- RESPONSIVE --> 
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Quicksand:400,700" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Lightbox CSS Package
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">   
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 
-<nav class="nav_bar">
-  <!-- FLEX CONTAINER BEGIN -->
-  <div class="flex_container">
+  <!---- NAVIGATION BAR -->
 
-  <!-- LEFT NAVIGATION LOGO AND HOME BUTTON -->
 
-  <div class="home_logo">
-      <img src="assets/websafeLogo.png" />
-<!--       <a href="http://thom-d.github.io/dt_portfolio2016/" alt="home">Home</a> -->
+  <nav class="navBar nav--color">
+  <div class="grid-container">
+    <div class="row">
+
+      <div class="two columns u-pull-left" style="margin: 1.5% 0">
+        <a href="" class="nav--logo">Logo</a>
+      </div>
+
+      <div class="ten columns u-pull-right" style="margin: 1.5% 0">
+      <ul class="navBar--list">
+        <!-- Featured Work and Contact Nav Links-->
+        <li><a href="#work" class="navBar--menu-link">Featured Work</a></li>
+        <li><a href="#contact" class="navBar--menu-link">Contact</a></li>
+
+        <!-- Github Icon/Link -->
+        <li><a href="https://github.com/thom-d" class="navBar--menu-icon" id="btn2_design" target="_blank">
+          <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+        </a></li>
+        <!-- Behance Icon/Link -->
+        <li><a href="https://behance.net/dthomas" class="navBar--menu-icon" id="btn2_design" target="_blank">
+          <i class="fa fa-behance fa-lg" aria-hidden="true"></i>
+        </a></li>
+        <!-- Codepen Icon/Link -->
+        <li><a href="http://codepen.io/thomasd_/" class="navBar--menu-icon" id="btn2_design" target="_blank">
+          <i class="fa fa-codepen fa-lg" aria-hidden="true"></i>
+        </a></li>
+        <!-- LinkedIn Icon/Link -->
+        <li><a href="https://www.linkedin.com/in/dthomas014" class="navBar--menu-icon" id="btn2_design" target="_blank">
+          <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+        </a></li>
+      </ul>
+      </div>
+
+    </div>
   </div>
+  </nav>
 
 
-  <!-- RIGHT NAVIGATION BUTTONS -->
-
-  <div class="right_nav">
-    <ul class="nav_list">
-      <li class="nav_btn" id="btn1_portfolio">    <!-- SAMPLES BUTTON -->
-        <a href="#work">
-          Featured Work
-        </a>
-      </li>
-      <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="https://behance.net/dthomas" target="_blank">
-        Github
-        </a>
-      </li>
-      <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="https://behance.net/dthomas" target="_blank">
-        Behance
-        </a>
-      </li>
-      <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="http://codepen.io/thomasd_/" target="_blank">
-        Codepen
-        </a>
-      </li>
-      <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="https://www.linkedin.com/in/dthomas014" target="_blank">
-        LinkedIn
-        </a>
-      </li>
-      <li class="nav_btn" id="btn3_contact">    <!-- CONTACT BUTTON -->
-        <a href="#contact">
-          Contact
-        </a>
-      </li>
-    </ul>
-  </div>
-  
-  </div>  
-  <!-- FLEX CONTAINER END -->
-  </div>
-</nav>
+  <!---- LANDING PAGE -->
 
 
-<!-- LANDING PAGE SECTION --> 
-
-
-<header class="intro">
+  <section class="u-full-width landingPage">
   <a name="home"></a>
-  <div class="container flex_contains">
-  <p class="welcome">Hello, I'm Dana Thomas, a <br><span class="jumbo">user interface designer</span> and <span class="jumbo">front end <br>developer</span> based in Michigan, USA.</p>
-  </div>
-</header>
-
-
-<!-- PORTFOLIO WORK SECTION --> 
-
-
-<section class="sample_work">
-<a name="work"></a>
-  
-<!-- Left side project tiles -->
-  <div class="left">
-    <div class="tile one">
-      <a href="https://thom-d.github.io/jquery-launchpad/" target="_blank">
-        <p class="tile_icon">Launch Pads App<br><span class="subtitle">jQuery / AJAX</span></p>
-      </a></div>
-    
-    <div class="tile two">
-      <a href="assets/image-slides-01.jpg" data-lightbox="dreamtrip" data-title="Denmark">
-        <p class="tile_icon">Personal Portfolio Redesign<br><span class="subtitle">Wireframing / Web Design / Web Development</span></p>
-      </a>
+  <div class="grid-container">
+    <div class="row">
+      <div class="eight columns" style="margin: 30% 0">
+        <p class="landingPage--text">Hello, I'm Dana Thomas, a <br><span class="landingPage--jumbo">user interface designer</span> and <span class="landingPage--jumbo">front end developer</span> based in Michigan, USA.</p>
+      </div>
     </div>
   </div>
-<!-- Right side project tiles -->
-  <div class="right">
-    <div class="tile three">
-      <a href="assets/germany-1.jpg" data-lightbox="dreamtrip" data-title="Denmark">
-        <p class="tile_icon">Mobile UI Patterns<br><span class="subtitle">Wireframing / UX UI Design</span></p>
-      </a>
+  </section>
+
+
+  <!---- FEATURED (PORTFOLIO) WORK SECTION -->
+
+
+  <section class="content">
+  <a name="work"></a>
+  <div class="grid-container content--background">
+
+    <div class="row">
+    <!-- First Row -->
+      <div class="five columns" style="margin: 15% 0 3% 0"> <!-- Gray Tile-->
+        <div class="content--box content--box--one">
+          <a href="https://thom-d.github.io/jquery-launchpad/" target="_blank">
+          <div class="content--text">Launch Pads App <br><span class="content--subtitle">jQuery / AJAX </span></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="seven columns u-pull-right" style="margin: 15% 0 3% 0"> <!-- Red Tile-->
+        <div class="content--box content--box--two">
+          <a href="assets/image-slides-01.jpg" data-lightbox="dreamtrip" data-title="Denmark">
+          <div class="content--text">Portfolio Site <br><span class="content--subtitle">Web Design / Web Development / Responsive Design</span></div> 
+          </a>
+        </div>
+      </div>
     </div>
-    
-    <div class="tile four">
-      <a href="assets/italy-2.jpg" data-lightbox="dreamtrip" data-title="Denmark">
-        <p class="tile_icon">Shopping List App<br><span class="subtitle">HTML / CSS / jQuery</span></p>
-      </a>
-    </div>    
+  <!-- Second Row -->
+    <div class="row">
+      <div class="seven columns" style="margin: 0 0 15% 0"> <!-- Aqua Tile-->
+        <div class="content--box content--box--three">
+          <a href="assets/germany-1.jpg" data-lightbox="dreamtrip" data-title="Denmark">
+          <div class="content--text">Mobile UI Design <br><span class="content--subtitle">Wireframing / UX/UI Design / UI Patterns</span></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="five columns u-pull-right" style="margin: 0 0 15% 0"> <!-- Yellow Tile-->
+        <div class="content--box content--box--four">
+          <a href="assets/italy-2.jpg" data-lightbox="dreamtrip" data-title="Denmark">
+          <div class="content--text">To Do List App <br><span class="content--subtitle">HTML / CSS / jQuery</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
   </div>
-</section>
+  </section>
 
 
-<!-- CONTACT SECTION --> 
+  <!-- CONTACT / ABOUT ME SECTION -->
 
 
-<section class="contact">
-<a name="contact"></a>  
-  <div class="container">
-<!--     <div class="flex_contain"> -->
-      
-    
-  <p class="blurb">
-    I am a multidisciplined individual with an eclectic background in coding, graphic design, art direction and apparel design. 
-  </p>
- 
-  <ul class="nav_list blurb-list blurb">
-    <li>Spoken languages:  HTML5 - CSS3 - jQuery - currently working to improve my base Javascript </li>
-    <li>My tools:  Adobe CS - Sketch - Balsamiq</li>
-    <li>My interests:  Javascript frameworks - UI design patterns - iOS</li>
-    <li>Let's touch base at <span class="e_mail"><a href="mailto:d.thomas014@gmail.com">d.thomas014@gmail[dot]com</a></span> or any of these networks:</li>
-  </ul>
-  
-         
-  <ul class="btm_navbar">
-    <li class="btm_nav" id="btn4_home"><a href="#home">Take me to the top!</a></li>
-  </ul>
-  </div> 
- 
-</section>
+  <section class="contactInfo">
+  <a name="contact"></a>  
+  <div class="grid-container">
+    <div class="row">
 
-    
-<!-- FOOTER / COPYRIGHT --> 
-    
-       
-<footer class="footer">
-  <div class="container">
-    <hr>
-    <div class="flex_container">
-      
-    <p class="footer--copyright"> &copy 2016 Dana Thomas</p> 
-    
-    <ul class="nav_list footer--links">
-       <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="https://behance.net/dthomas" target="_blank">
+      <!-- Left Column -->
+      <div class="six columns" style="margin: 10% 0 5% 0">
+        <p class="contactInfo--about">
+        I am a multidisciplined individual with an eclectic background in coding, graphic design, art direction and apparel design. 
+        </p>
+      </div>
+
+      <!-- Right Column -->
+      <div class="six columns" style="margin: 10% 0 5% 0">
+        <ul class="contactInfo--skills">
+          <li>Spoken languages:  HTML5 - CSS3 - jQuery - currently working to improve my base Javascript </li>
+          <li>My tools:  Adobe CS - Sketch - Balsamiq</li>
+          <li>My interests:  Javascript frameworks - UI design patterns - iOS</li>
+          <li>Let's touch base at <span><a href="mailto:d.thomas014@gmail.com" class="contactInfo--email">d.thomas014@gmail[dot]com</a></span> or any of these networks:</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+
+  <!---- BACK TO TOP BUTTON -->
+
+
+  <div class="grid-container">
+  <hr>
+    <div class="row">
+      <div class="twelve columns" style="margin: 2% 0">
+          <a href="#home" class="returnBtn" id="btn4_home">Take me to the top!</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!---- FOOTER BAR -->
+
+
+  <footer class="footerNav">
+  <div class="grid-container">
+  <hr>
+  <!-- Copyright -->
+    <div class="row">
+      <div class="three columns" style="margin-top: 0.2%">
+      <p class="footerNav--copyright">&copy 2016 Dana Thomas</p>
+      </div>
+
+  <!-- Footer Nav Social Links + Resume Download -->
+
+      <div class="nine columns u-pull-right u-full-width" style="margin: 0.2% 0">
+      <ul class="footerNav--list">
+      <li>
+      <a href="https://behance.net/dthomas" class="footerNav--links" id="btn2_design" target="_blank">
         Download My Resume
-        </a>
+      </a>
       </li>
-      <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="https://behance.net/dthomas" target="_blank">
+      <!-- Github Link -->
+      <li>
+      <a href="https://github.com/thom-d" class="footerNav--links" id="btn2_design" target="_blank">
         Github
-        </a>
+      </a>
       </li>
-      <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="https://behance.net/dthomas" target="_blank">
-        Behance
-        </a>
+      <!-- Behance Link -->
+      <li>
+      <a href="https://behance.net/dthomas" class="footerNav--links" id="btn2_design" target="_blank">
+      Behance
+      </a>
       </li>
-      <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="http://codepen.io/thomasd_/" target="_blank">
-        Codepen
-        </a>
+      <!-- Codepen Link -->
+      <li>
+      <a href="http://codepen.io/thomasd_/" class="footerNav--links" id="btn2_design" target="_blank">
+      Codepen
+      </a>
       </li>
-      <li class="nav_btn" id="btn2_design">    <!-- APPAREL BUTTON -->
-        <a href="https://www.linkedin.com/in/dthomas014" target="_blank">
-        LinkedIn
-        </a>
+      <!-- LinkedIn Link -->
+      <li>
+      <a href="https://www.linkedin.com/in/dthomas014" class="footerNav--links" id="btn2_design" target="_blank">
+      LinkedIn
+      </a>
       </li>
-    </ul>
+      </ul>
     </div>
+
   </div>
-</footer>
+  </footer>
 
 
-<!-- JAVASCRIPT LINKS --> 
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+  
 
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+  <!-- JAVASCRIPT LINKS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
   <script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
-  <script src="responsive-nav.js"></script>
+  <script src="https://use.fontawesome.com/f56a62923a.js"></script>
   <script src="lightbox2-master/dist/js/lightbox.js"></script>
   <script src="js/main.js"></script>
 
@@ -216,7 +256,6 @@
   Author URL: http://www.dnathoms.io/
   Tags: user interface, apparel, website 
   -->
-   
 
-  </body>
+</body>
 </html>
