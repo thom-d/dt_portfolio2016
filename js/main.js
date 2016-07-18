@@ -4,61 +4,29 @@
 
 
 //When doc loads fade in title text.
-$(".intro .welcome").hide().fadeIn(4400);
+$(".landingPage--text, .landingPage--jumbo").hide().fadeIn(4400);
 
 
 // Portfolio and Contact links should smooth scroll to their correct paths
 
-// Navigation bar links  -- "portfolio" and "contact" 
-// Portfolio button
+// Navigation bar links  -- "featured work" and "contact" 
+// Featured Work button
 $("#btn1_portfolio").click(function(e){
   e.preventDefault();
-  $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".content").offset().top}, 1500);    
 });
 
 // Contact button
 $("#btn3_contact").click(function(e){
   e.preventDefault();
-  $('body, html').animate({scrollTop: $(".contact").offset().top}, 1500);    
+  $('body, html').animate({scrollTop: $(".contactInfo").offset().top}, 1500);    
 });
 
-// Bottom page links  -- "home" and "portfolio"
+// Bottom page nav  -- "Take me to the top!"
 // Home button
 $("#btn4_home").click(function(e){
   e.preventDefault();
-  $('body, html').animate({scrollTop: $(".intro").offset().top}, 1500);    
-});
-
-// Portfolio button
-$("#btn5_portfolio").click(function(e){
-  e.preventDefault();
-  $('body, html').animate({scrollTop: $(".sample_work").offset().top}, 1500);    
-});
-
-// Links should open in new tab  -- "apparel" "behance" "linkedin" github"
-
-// Apparel button
-$('#btn2_design').click(function(e) {
-  e.preventDefault();
-  window.open("https://behance.net/dthomas");
-});
-
-// Behance button
-$('#behance').click(function(e) {
-  e.preventDefault();
-  window.open("https://behance.net/dthomas");
-});
-
-// LinkedIn button
-$('#linked').click(function(e) {
-  e.preventDefault();
-  window.open("https://www.linkedin.com/in/dthomas014");
-});
-
-// Github button
-$('#github').click(function(e) {
-  e.preventDefault();
-  window.open("https://github.com/thom-d?tab=repositories");
+  $('body, html').animate({scrollTop: $(".landingPage").offset().top}, 1500);    
 });
 
 // Portfolio images should open in a lightbox
@@ -68,6 +36,11 @@ $('#github').click(function(e) {
   'fadeDuration': 200
  });
 
+// Behance button
+// $('#behance').click(function(e) {
+//   e.preventDefault();
+//   window.open("https://behance.net/dthomas");
+// });
 
 // Code to open window in a new tab
 // Apparel button
