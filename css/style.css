@@ -29,29 +29,32 @@ material red - #B71C1C
 
 */
 
-* {
-/* 	a:hover {
-	text-decoration: none;
-	color: #999 !important;
-} */
-	
-}
-
 body {
 	font-family: 'Quicksand', sans-serif;
 	background: #fff;
+/* 	padding-top: 70px;  */
 }
 
-a {
-	all: unset;
+a {all: unset;}
+a {color: #1EAEDB; }
+a:hover {color: #B71C1C;}
+
+a.selected:link, a.selected:visited {
+  color: #B71C1C;
+	text-decoration: none;
 }
 
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #f1f1f2; }
 
 /**************  NAVIGATION BAR CONTENT SECTION ***/
 
 
 .navBar, .footerNav {
-	font-size: 0.9em;
+	font-size: 0.9em !important;
 }
 
 /* .navBar {
@@ -70,30 +73,32 @@ a {
 
 .nav--logo {
   display: flex;
-  align-items: center;
 }
 
 img {
-   width: 25px; height: 25px;
-   padding: 0;
-   margin-top: 0;
+  display: flex;
+	align-items: center;
+	margin-top: 25%;
+}
+
+img {
+   width: 30px; height: 30px;
 }
 
 .navBar--list {
-	padding-bottom: 0;
 	margin-bottom: 0;
 	display: flex;
 	justify-content: flex-end;
-/* 	flex-direction: row; */
-/*   align-items: center; */
+  align-items: center;
 }
 
 .navBar--list > li {
 	list-style: none;
 	text-decoration: none;
 	display: inline-flex;
+	padding-left: 0;
 	padding-bottom: 0;
-	margin: 0 0 0 1.5%;
+	margin: 0 0 0 0.5% !important;
 }
 
 .navBar--menu-link, 
@@ -170,8 +175,7 @@ img {
 	padding: 10% 2%;
 }
 
-.content--text:hover {
-	color: #B71C1C !important;
+.content--text:hover, a:hover {
 	text-decoration: none;
 }
 
@@ -232,14 +236,11 @@ img {
 	margin: 10em 0 5em 0;
 }
 
-.contactInfo--about {
-	line-height: 25px;
-}
-
 .contactInfo--about, 
 .contactInfo--skills {
 	color: #808285;
 	font-size: 1em;
+	line-height: 25px;
 }
 
 .contactInfo--skills {
@@ -249,7 +250,12 @@ img {
 .contactInfo--email {
 	color: #808285;
 	font-weight: 400;
-	font-size: 1.2em;
+	font-size: 1.3em;
+}
+
+.contactInfo--email:hover {
+	color: #B71C1C !important;
+	text-decoration: none;
 }
 
 
@@ -302,46 +308,51 @@ img {
 /**************  MEDIA QUERIES  ***/
 
 
-@media (max-width: 550px) {
-
-	.landingPage--text {
-		margin: 20% 0;
-		padding-bottom: 0;
-	}
+@media (max-width: 768px) {
 
 	.nav--logo {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-direction: row;
+	padding-left: 5%;
 	} 
   
   .nav--logo {
     margin-top: 2%;
   }
-
-	.navBar--list {
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-  }
-  
-  .navBar--list > li {
-	margin: 0 2% 2% 2%;
-  }
-
-  .landingPage--text {
-	padding-left: 0;
-	text-align: center;
-  }
+	
+	img {
+		margin-top: 0;
+	}
+	
+	.landingPage--text {
+		margin: 20% 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		text-align: center;
+	}
   
   .content--columns {
     margin: 0;
     padding: 0;
   }
+	
+	.contactInfo {
+		margin: 5em 0 1em 0;
+	}
+	
+	.contactInfo--skills {
+		margin-top: 5%;
+		padding-left: 2%;
+	}
   
   .footerNav--copyright {
     text-align: center;
   }
+	
+	.footerNav--list {
+		display: none;
+	}
 
 }
 

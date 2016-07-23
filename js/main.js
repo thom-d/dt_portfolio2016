@@ -4,7 +4,7 @@
 
 
 //When doc loads fade in title text.
-$(".landingPage--text, .landingPage--jumbo").hide().fadeIn(4700);
+$(".landingPage--text, .landingPage--jumbo").hide().fadeIn(4800);
 
 
 // Portfolio and Contact links should smooth scroll to their correct paths
