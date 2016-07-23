@@ -42,20 +42,8 @@ body {
 	background: #fff;
 }
 
-ul.nav li a, ul.nav li a:active {
-    color: #fff !important;
-}
-
-ul.nav li a:hover {
-    color: #B71C1C !important;
-}
-
-ul.nav li.active a {
-    color: #fff !important;
-}
-
-div.content--text:hover, div.a:hover {
-    text-decoration: none !important;
+a {
+	all: unset;
 }
 
 
@@ -110,7 +98,11 @@ img {
 
 .navBar--menu-link, 
 .navBar--menu-icon {
-	color: #fff;
+	color: #fff !important;
+} 
+
+.navBar--menu-link:hover {
+	color: #B71C1C !important;
 } 
 
 .fa {
@@ -176,6 +168,11 @@ img {
 	background: #f1f1f2;
 	height: 100%;
 	padding: 10% 2%;
+}
+
+.content--text:hover {
+	color: #B71C1C !important;
+	text-decoration: none;
 }
 
 /* In Featured Work -- content display box shape and height */
@@ -264,6 +261,11 @@ img {
 	display: block;
 }
 
+.returnBtn:hover {
+	color: #B71C1C !important;
+	text-decoration: none;
+}
+
 /**************  FOOTER NAVIGATION STYLES  ***/
 
 
@@ -274,6 +276,11 @@ img {
 .footerNav--copyright, 
 .footerNav--links {
 	color: #808285;
+}
+
+.footerNav--links:hover {
+	color: #B71C1C !important;
+	text-decoration: none;
 }
 
 .footerNav--list {
