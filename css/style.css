@@ -46,12 +46,12 @@ a {
 	font-size: 0.9em;
 }
 
-.navBar {
+/* .navBar {
   position: fixed;
   min-width: 100%;
 	z-index: 9999;
 	margin-bottom: 0;
-}
+} */
 
 .nav--color {
 	background: #808285;
@@ -148,20 +148,20 @@ img {
 	flex-direction: column;
 }
 
-.content {
+/* .content {
 	margin: 0 auto;
-}
+} */
 
 .content--background {
 	background: #f1f1f2;
 	height: 100%;
-	padding: 0 2%;
+	padding: 10% 2%;
 }
 
 /* In Featured Work -- content display box shape and height */
 .content--box {
 	width: auto; height: 250px;
-	border-radius: 2px;
+	border-radius: 3px;
 	padding: 0;
 	margin: 0;
 	display: flex;
@@ -177,12 +177,20 @@ img {
 	border: 2px solid #C62828;
 }
 .content--box--three {
-	background: #80CBC4;
-	border: 2px solid #4DB6AC;
+	background: #4DB6AC;
+	border: 2px solid #26A69A;
 }
 .content--box--four {
 	background: #FFE0B2;
 	border: 2px solid #FFD180;
+}
+.content--box--five {
+	background: #80CBC4;
+	border: 2px solid #4DB6AC;
+}
+.content--box--six {
+	background: #01579B;
+	border: 2px solid #0D47A1;
 }
 /****** END ******/
 

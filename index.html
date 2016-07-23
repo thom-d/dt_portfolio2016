@@ -19,6 +19,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Lightbox CSS Package
@@ -33,55 +36,53 @@
 
 
   <!---- NAVIGATION BAR -->
-
-
-  <nav class="navBar nav--color">
-  <div class="grid-container">
-    <div class="row">
-
-      <div class="two columns u-pull-left" style="margin: 1.3% 0">
-        <a href="" class="nav--logo"><img src="assets/websafeLogo.png" /></a>
-      </div>
-
-      <div class="ten columns u-pull-right" style="margin: 1.3% 0">
-      <ul class="navBar--list">
-        <!-- Featured Work and Contact Nav Links-->
-        <li><a href="#work" class="navBar--menu-link" id="btn1_portfolio">Featured Work</a></li>
-        <li><a href="#contact" class="navBar--menu-link" id="btn3_contact">Contact</a></li>
-
-        <!-- Github Icon/Link -->
-        <li><a href="https://github.com/thom-d" class="navBar--menu-icon" id="btn2_design" target="_blank">
-          <i class="fa fa-github fa-lg" aria-hidden="true"></i>
-        </a></li>
-        <!-- Behance Icon/Link -->
-        <li><a href="https://behance.net/dthomas" class="navBar--menu-icon" id="btn2_design" target="_blank">
-          <i class="fa fa-behance fa-lg" aria-hidden="true"></i>
-        </a></li>
-        <!-- Codepen Icon/Link -->
-        <li><a href="http://codepen.io/thomasd_/" class="navBar--menu-icon" id="btn2_design" target="_blank">
-          <i class="fa fa-codepen fa-lg" aria-hidden="true"></i>
-        </a></li>
-        <!-- LinkedIn Icon/Link -->
-        <li><a href="https://www.linkedin.com/in/dthomas014" class="navBar--menu-icon" id="btn2_design" target="_blank">
-          <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-        </a></li>
-      </ul>
-      </div>
-
+  
+  <nav role="navigation" class="navbar navbar-default navbar-fixed-top nav--color">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="nav--logo"><img src="assets/websafeLogo.png" /></a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right nav--list">
+              <li><a href="#work" class="navBar--menu-link" id="btn1_portfolio">Featured Work</a></li>
+              <li><a href="#contact" class="navBar--menu-link" id="btn3_contact">Contact</a></li>
+              
+               <!-- Github Icon/Link -->
+              <li><a href="https://github.com/thom-d" class="navBar--menu-icon" id="btn2_design" target="_blank">
+              <i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+              <!-- Behance Icon/Link -->
+              <li><a href="https://behance.net/dthomas" class="navBar--menu-icon" id="btn2_design" target="_blank">
+              <i class="fa fa-behance fa-lg" aria-hidden="true"></i></a></li>
+              <!-- Codepen Icon/Link -->
+              <li><a href="http://codepen.io/thomasd_/" class="navBar--menu-icon" id="btn2_design" target="_blank">
+              <i class="fa fa-codepen fa-lg" aria-hidden="true"></i></a></li>
+              <!-- LinkedIn Icon/Link -->
+              <li><a href="https://www.linkedin.com/in/dthomas014" class="navBar--menu-icon" id="btn2_design" target="_blank">
+               <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>    
+            </ul>
+        </div>
     </div>
-  </div>
-  </nav>
+</nav>      
 
 
   <!---- LANDING PAGE -->
 
 
-  <section class="u-full-width landingPage">
+  <section class="landingPage">
   <a name="home"></a>
-  <div class="grid-container">
-    <div class="landingPage--background u-full-width">
+  <div class="container-fluid">
+    <div class="landingPage--background">
     <div class="row">
-      <div class="eight columns landingPage--group" style="margin: 30% 0">
+      <div class="col-xs-12 col-sm-10 col-md-8 landingPage--group" style="margin: 30% 0">
         <p class="landingPage--text">Hello, I'm Dana Thomas, a <br><span class="landingPage--jumbo">user interface designer</span> and <span class="landingPage--jumbo">front end developer</span> based in Michigan, USA.</p>
       </div>
     </div>
@@ -95,11 +96,11 @@
 
   <section class="content">
   <a name="work"></a>
-  <div class="grid-container content--background">
+  <div class="container content--background">
 
     <div class="row">
-    <!-- First Row -->
-      <div class="five columns content--columns" style="margin: 15% 0 3% 0"> <!-- Gray Tile-->
+    <!-- First Row --> 
+      <div class="col-xs-12 col-sm-6 col-md-5 pull-left" style="margin: 1% 0"> <!-- Gray Tile-->
         <div class="content--box content--box--one">
           <a href="https://thom-d.github.io/jquery-launchpad/" target="_blank">
           <div class="content--text">Launch Pads App <br><span class="content--subtitle">jQuery // AJAX </span></div>
@@ -107,7 +108,7 @@
         </div>
       </div>
 
-      <div class="seven columns content--columns u-pull-right" style="margin: 15% 0 3% 0"> <!-- Red Tile-->
+      <div class="col-xs-12 col-sm-6 col-md-7 pull-right" style="margin: 1% 0"> <!-- Red Tile-->
         <div class="content--box content--box--two">
           <a href="assets/image-slides-01.jpg" data-lightbox="dreamtrip" data-title="Denmark">
           <div class="content--text">Portfolio Site <br><span class="content--subtitle">Responsive Web Design // Web Development</span></div> 
@@ -117,16 +118,35 @@
     </div>
   <!-- Second Row -->
     <div class="row">
-      <div class="seven columns" style="margin: 0 0 15% 0"> <!-- Aqua Tile-->
+      <div class="col-xs-12 col-sm-6 col-md-4 pull-left" style="margin: 1% 0"> <!-- ??? Tile-->
         <div class="content--box content--box--three">
+          <a href="assets/germany-1.jpg" data-lightbox="dreamtrip" data-title="Denmark">
+          <div class="content--text">1123 Blog <br><span class="content--subtitle">Branding // Logo Design // Collateral</span></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-8 pull-right" style="margin: 1% 0"> <!-- Yellow Tile-->
+        <div class="content--box content--box--four">
+          <a href="assets/italy-2.jpg" data-lightbox="dreamtrip" data-title="Denmark">
+          <div class="content--text">Web App Design <br><span class="content--subtitle">Creative Direction // UX // UI Design</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+   <!-- Third Row -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-7 pull-left" style="margin: 1% 0"> <!-- Aqua Tile-->
+        <div class="content--box content--box--five">
           <a href="assets/germany-1.jpg" data-lightbox="dreamtrip" data-title="Denmark">
           <div class="content--text">Mobile UI Design <br><span class="content--subtitle">Wireframing // UX/UI Design // UI Patterns</span></div>
           </a>
         </div>
       </div>
 
-      <div class="five columns u-pull-right" style="margin: 0 0 15% 0"> <!-- Yellow Tile-->
-        <div class="content--box content--box--four">
+      <div class="col-xs-12 col-sm-6 col-md-5 pull-right" style="margin: 1% 0"> <!-- ??? Tile-->
+        <div class="content--box content--box--six">
           <a href="assets/italy-2.jpg" data-lightbox="dreamtrip" data-title="Denmark">
           <div class="content--text">To Do List App <br><span class="content--subtitle">HTML // CSS // jQuery</span></div>
           </a>
@@ -144,11 +164,11 @@
 
   <section class="contactInfo">
   <a name="contact"></a>  
-  <div class="grid-container">
+  <div class="container">
     <div class="row">
 
       <!-- Left Column -->
-      <div class="six columns" style="margin: 10% 2% 5% 0">
+      <div class="col-xs-12 col-sm-6 col-md-7">
         <p class="contactInfo--about">
           Hi, I'm Dana Thomas! Currently, I work as a UI Developer Intern for Quicken Loans. Thanks to a rather colorful background, 
           I've had the pleasure of designing for the apparel brand Lands' End, and providing art direction for clients such as - Michigan Lottery Organization 
@@ -162,7 +182,7 @@
       </div>
       
       <!-- Right Column -->
-      <div class="six columns" style="margin: 10% 0 5% 0">
+      <div class="col-xs-12 col-sm-6 col-md-5">
         <ul class="contactInfo--skills">
           <li>Web Development </li>
             <ul class="contactInfo--skills">
@@ -195,10 +215,10 @@
   <!---- BACK TO TOP BUTTON -->
 
 
-  <div class="grid-container">
+  <div class="container">
   <hr>
     <div class="row">
-      <div class="twelve columns" style="margin: 2% 0">
+      <div class="col-xs-12 col-sm-12 col-md-12" style="margin: 2% 0">
           <a href="#home" class="returnBtn" id="btn4_home">Take me to the top!</a>
       </div>
     </div>
@@ -209,17 +229,17 @@
 
 
   <footer class="footerNav">
-  <div class="grid-container">
+  <div class="container">
   <hr>
   <!-- Copyright -->
     <div class="row">
-      <div class="three columns" style="margin-top: 0.2%">
+      <div class="col-xs-12 col-sm-6 col-md-3" style="margin: 0.5% 0 1 0">
       <p class="footerNav--copyright">&copy 2016 Dana Thomas</p>
       </div>
 
   <!-- Footer Nav Social Links + Resume Download -->
 
-      <div class="nine columns u-pull-right u-full-width" style="margin: 0.2% 0">
+      <div class="col-xs-12 col-sm-6 col-md-9" style="margin: 0.5% 0 1 0">
       <ul class="footerNav--list">
       <li>
       <a href="https://behance.net/dthomas" class="footerNav--links" id="btn2_design" target="_blank">
@@ -266,6 +286,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  
   <script src="https://use.fontawesome.com/f56a62923a.js"></script>
   <script src="lightbox2-master/dist/js/lightbox.js"></script>
   <script src="js/main.js"></script>
