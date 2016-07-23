@@ -30,16 +30,32 @@ material red - #B71C1C
 */
 
 * {
-	a:hover {
+/* 	a:hover {
 	text-decoration: none;
-	color: red !important;
-}
+	color: #999 !important;
+} */
 	
 }
 
 body {
 	font-family: 'Quicksand', sans-serif;
 	background: #fff;
+}
+
+ul.nav li a, ul.nav li a:active {
+    color: #fff !important;
+}
+
+ul.nav li a:hover {
+    color: #B71C1C !important;
+}
+
+ul.nav li.active a {
+    color: #fff !important;
+}
+
+div.content--text:hover, div.a:hover {
+    text-decoration: none !important;
 }
 
 
