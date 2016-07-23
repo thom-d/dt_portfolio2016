@@ -29,13 +29,17 @@ material red - #B71C1C
 
 */
 
+* {
+	a:hover {
+	text-decoration: none;
+	color: red !important;
+}
+	
+}
+
 body {
 	font-family: 'Quicksand', sans-serif;
 	background: #fff;
-}
-
-a {
-	text-decoration: none;
 }
 
 
@@ -76,8 +80,8 @@ img {
 	margin-bottom: 0;
 	display: flex;
 	justify-content: flex-end;
-	flex-direction: row;
-  align-items: center;
+/* 	flex-direction: row; */
+/*   align-items: center; */
 }
 
 .navBar--list > li {
@@ -211,15 +215,22 @@ img {
 
 /**************  CONTACT / ABOUT ME INFO SECTION  ***/
 
+.contactInfo {
+	margin: 10em 0 5em 0;
+}
+
+.contactInfo--about {
+	line-height: 25px;
+}
 
 .contactInfo--about, 
 .contactInfo--skills {
 	color: #808285;
-	font-size: 0.95em;
+	font-size: 1em;
 }
 
 .contactInfo--skills {
-	padding-left: 2%;
+/* 	padding-left: 2%; */
 }
 
 .contactInfo--email {
@@ -239,6 +250,10 @@ img {
 
 /**************  FOOTER NAVIGATION STYLES  ***/
 
+
+.footerNav {
+	padding: 0 0 2em 0;
+}
 
 .footerNav--copyright, 
 .footerNav--links {
