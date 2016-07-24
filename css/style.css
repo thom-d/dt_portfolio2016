@@ -99,7 +99,7 @@ hr {
 
 .navBar--menu-link:hover, 
 .navBar--menu-icon:hover {
-	border-bottom: #B71C1C solid 1.5px !important;
+	border-bottom: #B71C1C solid 1.8px !important;
 	position: relative;
 	padding-bottom: 5px;
 } 
