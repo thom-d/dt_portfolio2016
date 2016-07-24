@@ -57,13 +57,6 @@ hr {
 	font-size: 0.9em !important;
 }
 
-/* .navBar {
-  position: fixed;
-  min-width: 100%;
-	z-index: 9999;
-	margin-bottom: 0;
-} */
-
 .nav--color {
 	background: #808285;
 	/*box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4); 
@@ -72,38 +65,30 @@ hr {
 }
 
 .nav--logo {
-  display: flex;
-}
-
-img {
-  display: flex;
-	align-items: center;
-	margin-top: 25%;
-}
-
-img {
-   width: 30px; height: 30px;
+	width: 30px; height: 30px;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
 }
 
 .navBar--list {
 	margin-bottom: 0;
 	display: flex;
-	justify-content: flex-end;
-  align-items: center;
+/* 	justify-content: flex-start;
+  align-self: auto; */
 }
 
 .navBar--list > li {
 	list-style: none;
 	text-decoration: none;
 	display: inline-flex;
-	padding-left: 0;
-	padding-bottom: 0;
-	margin: 0 0 0 0.5% !important;
+	padding: 0 !important;
 }
 
 .navBar--menu-link, 
 .navBar--menu-icon {
 	color: #fff !important;
+	padding-left: 8px !important;
+	padding-right: 8px !important;
 } 
 
 .navBar--menu-link:hover {
@@ -112,6 +97,7 @@ img {
 
 .fa {
 	color: #fff;
+	padding: 0 !important;
 }
 
 .fa:hover {
@@ -165,10 +151,6 @@ img {
 	flex-direction: column;
 }
 
-/* .content {
-	margin: 0 auto;
-} */
-
 .content--background {
 	background: #f1f1f2;
 	height: 100%;
@@ -179,7 +161,10 @@ img {
 	text-decoration: none;
 }
 
+
 /* In Featured Work -- content display box shape and height */
+
+
 .content--box {
 	width: auto; height: 250px;
 	border-radius: 3px;
@@ -232,6 +217,7 @@ img {
 
 /**************  CONTACT / ABOUT ME INFO SECTION  ***/
 
+
 .contactInfo {
 	margin: 10em 0 5em 0;
 }
@@ -243,14 +229,17 @@ img {
 	line-height: 25px;
 }
 
-.contactInfo--skills {
-/* 	padding-left: 2%; */
+.contactInfo--title {
+	font-size: 1.1em;
+	font-weight: 700;
+	list-style: square;
 }
 
 .contactInfo--email {
 	color: #808285;
 	font-weight: 400;
 	font-size: 1.3em;
+	letter-spacing: 0.5px;
 }
 
 .contactInfo--email:hover {
@@ -260,6 +249,7 @@ img {
 
 
 /**************  BACK TO TOP BUTTON  ***/
+
 
 .returnBtn {
 	text-align: center;
@@ -271,6 +261,7 @@ img {
 	color: #B71C1C !important;
 	text-decoration: none;
 }
+
 
 /**************  FOOTER NAVIGATION STYLES  ***/
 
@@ -311,19 +302,15 @@ img {
 @media (max-width: 768px) {
 
 	.nav--logo {
-	display: flex;
-	justify-content: flex-start;
+/* 	display: flex;
+	justify-content: flex-start; */
 	flex-direction: row;
-	padding-left: 5%;
+	margin-left: 5%;
 	} 
   
-  .nav--logo {
+/*   .nav--logo {
     margin-top: 2%;
-  }
-	
-	img {
-		margin-top: 0;
-	}
+  } */
 	
 	.landingPage--text {
 		margin: 20% 0;
@@ -343,7 +330,7 @@ img {
 	
 	.contactInfo--skills {
 		margin-top: 5%;
-		padding-left: 2%;
+		margin-left: 5%;
 	}
   
   .footerNav--copyright {
