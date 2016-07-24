@@ -78,6 +78,8 @@ hr {
 }
 
 .navBar--list > li {
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 300 !important;
 	list-style: none;
 	text-decoration: none;
 	display: inline-flex;
@@ -202,7 +204,9 @@ hr {
 
 .content--text {
   color: #fff;
+	font-family: 'Lato', sans-serif;
   font-size: 1.5em;
+	font-weight: 300;
   text-align: center;
 }
 
@@ -230,8 +234,9 @@ hr {
 }
 
 .contactInfo--title {
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 400 !important;
 	font-size: 1.1em;
-	font-weight: 700;
 	list-style: square;
 }
 
@@ -305,7 +310,7 @@ hr {
 /* 	display: flex;
 	justify-content: flex-start; */
 	flex-direction: row;
-	margin-left: 5%;
+	margin-left: 2%;
 	} 
   
 /*   .nav--logo {
