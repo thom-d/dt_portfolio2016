@@ -1,3 +1,4 @@
-This is the personal portfolio site for Dana Thomas, built with simple html/css/jQuery. 
+Hi, I'm Dana Thomas and this is my personal portfolio site.
+It's built with html, css, jQuery and made responsive with a little help from the Bootstrap CDN.   
 
  
