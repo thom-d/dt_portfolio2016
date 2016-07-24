@@ -97,6 +97,13 @@ hr {
 	color: #B71C1C !important;
 } 
 
+.navBar--menu-link:hover, 
+.navBar--menu-icon:hover {
+	border-bottom: #B71C1C solid 1.5px !important;
+	position: relative;
+	padding-bottom: 5px;
+} 
+
 .fa {
 	color: #fff;
 	padding: 0 !important;
@@ -238,6 +245,7 @@ hr {
 	font-weight: 400 !important;
 	font-size: 1.1em;
 	list-style: square;
+	letter-spacing: 1.7px;
 }
 
 .contactInfo--email {
