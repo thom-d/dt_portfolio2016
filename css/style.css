@@ -33,6 +33,7 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	background: #fff;
 /* 	padding-top: 70px;  */
+	padding: 3em;
 }
 
 a {all: unset;}
@@ -57,21 +58,21 @@ hr {
 	font-size: 0.9em !important;
 }
 
-.navbar-default {
+/* .navbar-default {
 	height: 70px;
-}
+} */
 
 .nav--color {
 	background: #808285;
-	box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.6); 
-    -moz-box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.6);
-    -webkit-box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.6);
+	box-shadow: 1px 1px 1px rgba(204, 204, 204, 0.4); 
+    -moz-box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.4);
+    -webkit-box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.4);
 }
 
 .nav--logo {
 	width: 30px; height: 30px;
-	margin-top: 20px !important;
-	margin-bottom: 20px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
 }
 
 .navBar--list {
@@ -79,7 +80,7 @@ hr {
 	display: flex;
 /* 	justify-content: flex-start;
   align-self: auto; */
-	padding: 0 20px !important;
+/* 	padding: 0 20px !important; */
 }
 
 .navBar--list > li {
@@ -89,7 +90,7 @@ hr {
 	text-decoration: none;
 	display: inline-flex;
 /* 	padding: 0 !important; */
-	padding: 0 20px !important;
+/* 	padding: 0 20px !important; */
 }
 
 .navBar--menu-link, 
@@ -123,8 +124,11 @@ hr {
 /**************  LANDING PAGE CONTENT SECTION  ***/
 
 
-.landingPage {
-	background: #fff;
+.landingPage--background {
+	background: #4DB6AC;
+	padding-top: 0;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
 }
 
 /* .landingPage--background {
@@ -138,7 +142,8 @@ hr {
 } */
 
 .landingPage--text {
-	color: #808285;
+/* 	color: #808285; */
+	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
