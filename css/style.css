@@ -57,17 +57,21 @@ hr {
 	font-size: 0.9em !important;
 }
 
+.navbar-default {
+	height: 70px;
+}
+
 .nav--color {
 	background: #808285;
-	/*box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4); 
-    -moz-box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4);
-    -webkit-box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4);*/
+	box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.6); 
+    -moz-box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.6);
+    -webkit-box-shadow: 2px 2px 2px rgba(204, 204, 204, 0.6);
 }
 
 .nav--logo {
 	width: 30px; height: 30px;
-	margin-top: 10px !important;
-	margin-bottom: 10px !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
 }
 
 .navBar--list {
@@ -75,6 +79,7 @@ hr {
 	display: flex;
 /* 	justify-content: flex-start;
   align-self: auto; */
+	padding: 0 20px !important;
 }
 
 .navBar--list > li {
@@ -83,7 +88,8 @@ hr {
 	list-style: none;
 	text-decoration: none;
 	display: inline-flex;
-	padding: 0 !important;
+/* 	padding: 0 !important; */
+	padding: 0 20px !important;
 }
 
 .navBar--menu-link, 
