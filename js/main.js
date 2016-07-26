@@ -27,7 +27,12 @@ $("#btn3_contact").click(function(e){
 $("#btn4_home").click(function(e){
   e.preventDefault();
   $('body, html').animate({scrollTop: $(".landingPage").offset().top}, 1500);    
-});
+});  
+
+$("#btn2_home").click(function(e){
+  e.preventDefault();
+  $('body, html').animate({scrollTop: $(".landingPage").offset().top}, 1500);    
+});  btn2_home
 
 // Portfolio images should open in a lightbox
 

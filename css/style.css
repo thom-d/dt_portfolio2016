@@ -241,6 +241,10 @@ hr {
 	letter-spacing: 1.7px;
 }
 
+.contactInfo--work {
+	color: #B71C1C;
+}
+
 .contactInfo--email {
 	color: #808285;
 	font-weight: 400;
