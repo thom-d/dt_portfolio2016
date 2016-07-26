@@ -32,7 +32,7 @@ material red - #B71C1C
 body {
 	font-family: 'Quicksand', sans-serif;
 	background: #fff;
-/* 	padding-top: 70px;  */
+	padding-top: 50px; 
 }
 
 a {all: unset;}
@@ -86,8 +86,7 @@ hr {
 	padding: 0 !important;
 }
 
-.navBar--menu-link, 
-.navBar--menu-icon {
+.navBar--menu-link {
 	color: #fff !important;
 	padding-left: 8px !important;
 	padding-right: 8px !important;
@@ -97,15 +96,14 @@ hr {
 	color: #B71C1C !important;
 } 
 
-.navBar--menu-link:hover, 
-.navBar--menu-icon:hover {
+.navBar--menu-link:hover {
 	border-bottom: #B71C1C solid 1.8px !important;
 	position: relative;
 	padding-bottom: 5px;
 } 
 
 .fa {
-	color: #fff;
+	color: #808285;
 	padding: 0 !important;
 }
 
@@ -124,8 +122,6 @@ hr {
 .landingPage--background {
 	background: #4DB6AC;
 /* 	background: #fff; */
-	margin-top: 2.5em;
-	margin-bottom: 2.5em;
 }
 
 .landingPage--text {
@@ -250,11 +246,45 @@ hr {
 	font-weight: 400;
 	font-size: 1.3em;
 	letter-spacing: 0.5px;
+	border-bottom: 1px solid #f1f1f2;
+	padding-bottom: 10px;
 }
 
 .contactInfo--email:hover {
 	color: #B71C1C !important;
 	text-decoration: none;
+}
+
+.contactInfo--list {
+	margin-top: 3.5em;
+	padding: 0;
+}
+
+.contactInfo--list > li {
+	display: inline-flex;	
+	padding-bottom: 10px;
+}
+
+.contactInfo--menu-icon {
+/* 	padding-left: 1em !important; */
+	padding-right: 2em !important;
+}
+
+/* .contactInfo--menu-icon:hover {
+	padding: 0 1em !important;
+	border-bottom: #B71C1C solid 1.8px !important;
+	position: relative;
+	padding-bottom: 10px !important;
+} */
+
+.fa {
+	color: #808285;
+}
+
+.fa:hover {
+	color: #B71C1C;
+	position: relative;
+	padding-bottom: 10px;
 }
 
 
