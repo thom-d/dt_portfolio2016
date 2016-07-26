@@ -116,23 +116,20 @@ hr {
 
 /**************  LANDING PAGE CONTENT SECTION  ***/
 
-
 .landingPage {
-	background: #fff;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
 }
 
-/* .landingPage--background {
-  positive: relative;
-  background-image: url("../assets/unsplash_desk.jpeg");
-  background-repeat: no-repeat;
-  display: cover;
-  width: 100%; height: auto;
-  padding: 0;
-  margin: 0;
-} */
+.landingPage--background {
+	background: #4DB6AC;
+/* 	background: #fff; */
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
 
 .landingPage--text {
-	color: #808285;
+	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
