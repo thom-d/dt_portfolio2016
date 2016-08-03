@@ -216,6 +216,12 @@ hr {
   text-align: center;
   padding-left: 0;
   margin-left: 0;
+	padding-bottom: 1em !important;
+}
+
+.behance--subtitle a {
+	color: #fff !important;
+	padding: 0;
 }
 
 
@@ -340,7 +346,7 @@ hr {
 }
 
 .source {
-	color: #f1f1f2;
+	color: #e4e4e7;
 }
 
 
