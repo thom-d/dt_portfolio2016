@@ -37,7 +37,7 @@ body {
 
 a {all: unset;}
 a {color: #1EAEDB; }
-a:hover {color: #B71C1C;}
+a:hover {color: #B71C1C; cursor: pointer;}
 
 a.selected:link, a.selected:visited {
   color: #B71C1C;
@@ -181,16 +181,16 @@ hr {
 	border: 2px solid #263238;  
 }
 .content--box--two {
-	background: #e8394d;
+	background: #EF5350;
 	border: 2px solid #C62828;
 }
 .content--box--three {
-	background: #4DB6AC;
-	border: 2px solid #26A69A;
+	background: #D32F2F;
+	border: 2px solid #C62828;
 }
 .content--box--four {
-	background: #FFE0B2;
-	border: 2px solid #FFD180;
+	background: #4DB6AC;
+	border: 2px solid #26A69A;
 }
 .content--box--five {
 	background: #80CBC4;
