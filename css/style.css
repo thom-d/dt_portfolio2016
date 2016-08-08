@@ -181,24 +181,24 @@ hr {
 	border: 2px solid #263238;  
 }
 .content--box--two {
-	background: #EF5350;
-	border: 2px solid #C62828;
-}
-.content--box--three {
 	background: #01579B;
 	border: 2px solid #0D47A1;
+}
+.content--box--three {
+	background: #80CBC4;
+	border: 2px solid #4DB6AC;
 }
 .content--box--four {
 	background: #4DB6AC;
 	border: 2px solid #26A69A;
 }
 .content--box--five {
-	background: #80CBC4;
-	border: 2px solid #4DB6AC;
+	background: #4DB6AC;
+	border: 2px solid #26A69A;
 }
 .content--box--six {
-	background: #37474F;
-	border: 2px solid #263238; 
+	background: #EF5350;
+	border: 2px solid #C62828;
 }
 /****** END ******/
 
