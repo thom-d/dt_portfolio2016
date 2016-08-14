@@ -181,7 +181,8 @@ hr {
 	border: 2px solid #263238;  
 }
 .content--box--two {
-	background: #01579B;
+	background-image: url("../assets/denmark-1.jpg");
+	background-color: #01579B;
 	border: 2px solid #0D47A1;
 }
 .content--box--three {
@@ -189,15 +190,18 @@ hr {
 	border: 2px solid #4DB6AC;
 }
 .content--box--four {
-	background: #4DB6AC;
+	background-image: url("../assets/italy-1.jpg");
+	background-color: #4DB6AC;
 	border: 2px solid #26A69A;
 }
 .content--box--five {
-	background: #4DB6AC;
+	background-image: url("../assets/denmark-2.jpg");
+	background-color: #4DB6AC;
 	border: 2px solid #26A69A;
 }
 .content--box--six {
-	background: #EF5350;
+	background-image: url("../assets/denmark-2.jpg");
+	background-color: #EF5350;
 	border: 2px solid #C62828;
 }
 /****** END ******/
