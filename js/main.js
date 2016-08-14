@@ -11,7 +11,7 @@ $(".landingPage--text, .landingPage--jumbo").hide().fadeIn(4800);
 
 // Navigation bar links  -- "featured work" and "contact" 
 // Featured Work button
-$("#btn1_portfolio").click(function(e){
+$("#btn1_portfolio, #btn2_portfolio").click(function(e){
   e.preventDefault();
   $('body, html').animate({scrollTop: $(".content").offset().top}, 1500);    
 });
