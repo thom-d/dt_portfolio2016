@@ -208,7 +208,7 @@ hr {
 }
 /* QA App */
 .content--box--three {
-	background: #80CBC4;
+	background: #4DB6AC;
 	border: 8px solid #fff;
 /* 	border: 2px solid #4DB6AC; */
 }
@@ -220,10 +220,10 @@ hr {
 	border: 8px solid #fff;
 /* 	border: 2px solid #26A69A; */
 }
-/* Mobile UI Design */
+/* GoodMarket UX Design */
 .content--box--five {
-	background-image: url("../assets/denmark-2.jpg");
-	background-color: #4DB6AC;
+/* 	background-image: url("../assets/denmark-2.jpg"); */
+	background-color: #E57373;
 	border: 8px solid #fff;
 /* 	border: 2px solid #26A69A; */
 }
