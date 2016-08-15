@@ -199,7 +199,8 @@ hr {
 }
 /* Mobile eCom Wireframes */
 .content--box--two {
-	background-image: url("../assets/denmark-1.jpg");
+	background-image: url("../assets/ebay-web.png");
+	background-position: 50%;
 	background-color: #01579B;
 	border: 8px solid #fff;
 /* 	border: 2px solid #0D47A1; */
@@ -213,7 +214,8 @@ hr {
 }
 /* Mobile eCom App */
 .content--box--four {
-	background-image: url("../assets/italy-1.jpg");
+	background-image: url("../assets/mobileecom-web.png");
+	background-position: 180% 50%;
 	background-color: #4DB6AC;
 	border: 8px solid #fff;
 /* 	border: 2px solid #26A69A; */
