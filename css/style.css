@@ -58,7 +58,7 @@ hr {
 }
 
 .nav--color {
-	background: rgba(128, 130, 133, 0.6);
+	background: rgba(128, 130, 133, 0.7);
 /* 	background: #808285; */
 	/*box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4); 
     -moz-box-shadow: 2px 2px 2px rgba(183, 28, 28, 0.4);
@@ -135,6 +135,7 @@ hr {
 }
 
 .landingPage--jumbo {
+	color: #fff;
 	font-family: 'Lato', sans-serif;
   font-size: 1.8em;
   font-weight: 400i;
@@ -165,11 +166,15 @@ hr {
 .content--background {
 	background: #f1f1f2;
 	height: 100%;
-	padding: 10% 2%;
+	padding: 5% 2%;
 }
 
 .content--text:hover, a:hover {
 	text-decoration: none;
+}
+
+.content--label-style {
+	border-bottom: 2px solid #fff;
 }
 
 
@@ -188,36 +193,43 @@ hr {
 /* Launch Pads App */
 .content--box--one {
 	background: #37474F;
-	border: 2px solid #263238;  
+	border: 8px solid #fff;
+/* 	border: 2px solid #263238;   */
 }
 /* Mobile eCom Wireframes */
 .content--box--two {
 	background-image: url("../assets/denmark-1.jpg");
 	background-color: #01579B;
-	border: 2px solid #0D47A1;
+	border: 8px solid #fff;
+/* 	border: 2px solid #0D47A1; */
+	
 }
 /* QA App */
 .content--box--three {
 	background: #80CBC4;
-	border: 2px solid #4DB6AC;
+	border: 8px solid #fff;
+/* 	border: 2px solid #4DB6AC; */
 }
 /* Mobile eCom App */
 .content--box--four {
 	background-image: url("../assets/italy-1.jpg");
 	background-color: #4DB6AC;
-	border: 2px solid #26A69A;
+	border: 8px solid #fff;
+/* 	border: 2px solid #26A69A; */
 }
 /* Mobile UI Design */
 .content--box--five {
 	background-image: url("../assets/denmark-2.jpg");
 	background-color: #4DB6AC;
-	border: 2px solid #26A69A;
+	border: 8px solid #fff;
+/* 	border: 2px solid #26A69A; */
 }
 /* Landing Page */
 .content--box--six {
 	background-image: url("../assets/denmark-2.jpg");
 	background-color: #EF5350;
-	border: 2px solid #C62828;
+	border: 8px solid #fff;
+/* 	border: 2px solid #C62828; */
 }
 /****** END ******/
 
