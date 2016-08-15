@@ -184,29 +184,35 @@ hr {
 }
 
 /* Content display box color and border dimensions */
+/* Launch Pads App */
 .content--box--one {
 	background: #37474F;
 	border: 2px solid #263238;  
 }
+/* Mobile eCom Wireframes */
 .content--box--two {
 	background-image: url("../assets/denmark-1.jpg");
 	background-color: #01579B;
 	border: 2px solid #0D47A1;
 }
+/* QA App */
 .content--box--three {
 	background: #80CBC4;
 	border: 2px solid #4DB6AC;
 }
+/* Mobile eCom App */
 .content--box--four {
 	background-image: url("../assets/italy-1.jpg");
 	background-color: #4DB6AC;
 	border: 2px solid #26A69A;
 }
+/* Mobile UI Design */
 .content--box--five {
 	background-image: url("../assets/denmark-2.jpg");
 	background-color: #4DB6AC;
 	border: 2px solid #26A69A;
 }
+/* Landing Page */
 .content--box--six {
 	background-image: url("../assets/denmark-2.jpg");
 	background-color: #EF5350;
