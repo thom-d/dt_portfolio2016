@@ -227,7 +227,8 @@ hr {
 }
 /* Landing Page */
 .content--box--six {
-	background-image: url("../assets/denmark-2.jpg");
+	background-image: url("../assets/landingpage-web.png");
+	background-position: 50%;
 	background-color: #EF5350;
 	border: 8px solid #fff;
 /* 	border: 2px solid #C62828; */
