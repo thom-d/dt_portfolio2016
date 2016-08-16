@@ -41,6 +41,19 @@ $("#btn2_home").click(function(e){
   'fadeDuration': 200
  });
 
+// $( ".content--text, .content--description" ).hide();
+
+// $(".content--box").mouseenter(function() {
+//   $( this ).animate({
+//     opacity: 0.1,
+//   }, 1500 );
+//   $( ".content--text, .content--description" ).fadeIn( 2000 );
+// });
+
+// $(".content--box").mouseleave(function() {
+//   $( ".content--text, .content--description" ).fadeOut( 1500 );
+// });
+
 // Behance button
 // $('#behance').click(function(e) {
 //   e.preventDefault();
