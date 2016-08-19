@@ -202,7 +202,7 @@ hr {
 	border: 8px solid #fff;
 /* 	border: 2px solid #263238;   */
 }
-/* Mobile eCom Wireframes */
+/* Ebay Page */
 .content--box--two {
 	background-image: url("../assets/ebay-web.png");
 	background-position: 50%;
@@ -225,9 +225,10 @@ hr {
 	border: 8px solid #fff;
 /* 	border: 2px solid #26A69A; */
 }
-/* GoodMarket UX Design */
+/* Product Pages */
 .content--box--five {
-/* 	background-image: url("../assets/denmark-2.jpg"); */
+	background-image: url("../assets/productpage-web.png");
+	background-position: 90% 35%;
 	background-color: #E57373;
 	border: 8px solid #fff;
 /* 	border: 2px solid #26A69A; */
