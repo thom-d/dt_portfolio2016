@@ -8,19 +8,6 @@ white - #fff **
 Content Background and hr tag--
 casual gray - #f1f1f2 **
 
-Content Tiles and Border Color--
-london gray - #37474F   
-border - #263238
--
-nantucket red - #e8394d
-border - #C62828
--
-bermuda aqua - #80CBC4
-border - #4DB6AC
--
-georgia yellow - #FFE0B2
-border - #FFD180
-
 Text, Navigation Bar --
 linen gray - #808285 **
 
@@ -206,7 +193,7 @@ hr {
 .content--box--two {
 	background-image: url("../assets/ebay-web.png");
 	background-position: 50%;
-	background-color: #01579B;
+	background-color: #f1f1f2;
 	border: 8px solid #fff;
 /* 	border: 2px solid #0D47A1; */
 	
@@ -221,7 +208,7 @@ hr {
 .content--box--four {
 	background-image: url("../assets/mobileecom-web.png");
 	background-position: 80% 50%;
-	background-color: #4DB6AC;
+	background-color: #f1f1f2;
 	border: 8px solid #fff;
 /* 	border: 2px solid #26A69A; */
 }
@@ -229,7 +216,7 @@ hr {
 .content--box--five {
 	background-image: url("../assets/productpage-web.png");
 	background-position: 90% 35%;
-	background-color: #E57373;
+	background-color: #f1f1f2;
 	border: 8px solid #fff;
 /* 	border: 2px solid #26A69A; */
 }
@@ -237,7 +224,7 @@ hr {
 .content--box--six {
 	background-image: url("../assets/washLP-web.png");
 	background-position: 50%;
-	background-color: #EF5350;
+	background-color: #f1f1f2;
 	border: 8px solid #fff;
 /* 	border: 2px solid #C62828; */
 }
@@ -402,6 +389,10 @@ hr {
 
 @media (max-width: 768px) {
 
+	a {
+		color: #fff;
+	}
+	
 	.nav--logo {
 /* 	display: flex;
 	justify-content: flex-start; */
@@ -409,10 +400,6 @@ hr {
 	margin-left: 2%;
 	} 
   
-/*   .nav--logo {
-    margin-top: 2%;
-  } */
-	
 	.landingPage--text {
 		margin: 20% 0;
 		padding-bottom: 0;
