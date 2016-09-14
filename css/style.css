@@ -411,8 +411,8 @@ hr {
 	.landingPage--text {
 		margin: 20% 0;
 		padding-bottom: 0;
-		padding-left: 0;
-		text-align: center;
+		padding-left: 10%;
+		text-align: left;
 	}
   
   .content--columns {
@@ -438,5 +438,17 @@ hr {
 	}
 
 }
+
+@media (max-width: 640px) {
+	
+	.landingPage--text {
+		margin: 20% 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+  
+}
+
 
 
