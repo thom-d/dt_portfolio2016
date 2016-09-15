@@ -397,7 +397,11 @@ hr {
 
 @media (max-width: 768px) {
 
-	a {
+	a, 
+	.content--text,
+	.content--subtitle,
+	.contactInfo--work,
+	.navBar--menu-link {
 		color: #fff !important;
 	}
 	
