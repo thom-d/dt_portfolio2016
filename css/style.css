@@ -85,7 +85,7 @@ hr {
 } 
 
 .navBar--menu-link:hover {
-	border-bottom: #B71C1C solid 2px !important;
+	border-bottom: #B71C1C solid 1.8px !important;
 	position: relative;
 	padding-bottom: 5px;
 } 
@@ -243,6 +243,15 @@ hr {
 	border: 8px solid #fff;
 /* 	border: 2px solid #C62828; */
 }
+/* Winc Email */
+.content--box--nine {
+	background-image: url("../assets/winc-web.png");
+	background-position: 50%;
+	background-color: #f1f1f2;
+	border: 8px solid #fff;
+/* 	border: 2px solid #C62828; */
+}
+
 /****** END ******/
 
 .content--text {
